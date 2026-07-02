@@ -6,34 +6,54 @@ const App = () => {
 
       {/* HERO */}
       <header className="hero">
-        <h1>24/7 Emergency Towing in Clearwater</h1>
-        <p>Fast • Reliable • Licensed & Insured</p>
+  <h1>24/7 Emergency Towing & Private Property Impounds in Clearwater, FL</h1>
 
-        <div className="hero-badges">
-          <span className="badge">Local</span>
-          <span className="badge">24/7 Dispatch</span>
-          <span className="badge">Fast Response</span>
-          <span className="badge">Property Managers Welcome</span>
-        </div>
+  <p className="hero-subtitle">
+    Black Jack Towing & Recovery provides fast, professional towing,
+    roadside assistance, medium-duty towing, accident recovery, and
+    private property impound services throughout Clearwater and
+    surrounding Pinellas County.
+  </p>
 
-        <a className="cta" href={`tel:${phone}`}>
-          Call Now (727) 531-0048
-        </a>
+  <div className="hero-badges">
+    <span className="badge">24/7 Dispatch</span>
+    <span className="badge">Fast Response</span>
+    <span className="badge">Licensed & Insured</span>
+    <span className="badge">Property Managers Welcome</span>
+    <span className="badge">Medium Duty Available</span>
+  </div>
 
-        <div className="subcta-row">
-          <a
-            className="subcta"
-            href="/blackjack-impound-contract.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Impound Contracts
-          </a>
-        </div>
+  <a className="cta" href={`tel:${phone}`}>
+    📞 Call Now (727) 531-0048
+  </a>
 
-        <div className="eta">Average ETA: 20–30 Minutes</div>
-      </header>
+  <div className="subcta-row">
+    <a
+      className="subcta"
+      href="/blackjack-impound-contract.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Property Manager Impound Contracts
+    </a>
+  </div>
 
+  <div className="eta">
+    Average Response Time: 20–30 Minutes*
+  </div>
+
+ <p className="muted">
+  Proudly serving Clearwater, Largo, Dunedin, Safety Harbor,
+  St. Petersburg, and surrounding Pinellas County.
+</p>
+
+<div className="hero-trust">
+  <div>✔ Fast Response Throughout Pinellas County</div>
+  <div>✔ Licensed & Insured Professional Operators</div>
+  <div>✔ Trusted by Property Managers, Businesses & Drivers</div>
+</div>
+
+</header>
       <main className="main">
 
         {/* SERVICES */}
